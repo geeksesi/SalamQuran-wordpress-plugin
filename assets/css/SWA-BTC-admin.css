@@ -1,0 +1,158 @@
+
+#SWA_BTC .test
+{
+    border: 1px solid crimson;
+    height: 50px;
+}
+#SWA_BTC .top
+{
+    width: 18%;
+    float: left;
+    background-color: #f9b32f;
+    color: white;
+    height: 20px;
+    text-align: center;
+    margin: 0 2px 0 2px;
+    padding: 10px 0 10px 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-decoration: none;
+}
+#SWA_BTC .top:hover
+{
+    color: #222222;
+    text-decoration: none;
+}
+#SWA_BTC .wrap
+{
+margin-top: 0 !important;
+}
+#SWA_BTC *
+{
+transition: 500ms ease ;
+}
+#SWA_BTC .row
+{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+#SWA_BTC .logo
+{
+    float: left;
+    width: 100%;
+}
+#SWA_BTC .logo:before
+{
+    content: url("../img/logo.svg");
+    padding: 8px;
+}
+#SWA_BTC .price
+{
+    /*float: left;*/
+    /*width: 100%;*/
+}
+#SWA_BTC .price h2
+{
+    float: left;
+    width: 15%;
+    padding-top: 8px;
+    color: #f9b32f;
+}
+#SWA_BTC .price p
+{
+    width: 18%;
+    float: left;
+    /*padding-top: 8px;*/
+    font-size: x-large;
+}
+#SWA_BTC .price i
+{
+    color: #f9b32f;
+}
+#SWA_BTC .Rials
+{
+    content: "Rials";
+}
+#SWA_BTC .calculate
+{
+    width: 70%;
+}
+#SWA_BTC .calculate .calculate_input
+{
+    width: 40%;
+    float: left;
+}
+#SWA_BTC .calculate .calculate_radio
+{
+    width: 30%;
+    float: left;
+    margin-top: 10px
+}
+#SWA_BTC .calculate h2
+{
+    color: #f9b32f;
+}
+#SWA_BTC .calculate input[type="number"] + label
+{
+    width: 45%;
+}
+#SWA_BTC .calculate input[type="number"]
+{
+    width: 55%;
+    padding: 10px;
+    height: 40px;
+    color: #f9b32f;
+    background-color: transparent;
+    /*background: rgba(255,255,255,0.3);*/
+    /*border: 1px solid rgba(249,179,47,0.1);*/
+    border: 0;
+    box-shadow: none;
+    -moz-appearance: textfield;
+    /*appearance: textfield;*/
+}
+#SWA_BTC .calculate input[type=radio]
+{
+    display: none;
+
+}
+#SWA_BTC .calculate .radio
+{
+    display : inline-block;
+    width: 30px;
+    text-align: center;
+    background-color: white;
+    padding: 5px 3px 5px 3px;
+    color: #f9b32f;
+}
+#SWA_BTC .calculate input[type=radio]:checked + label
+{
+    background-color: #f9b32f;
+    color: white;
+}
+#SWA_BTC .calculate input[type=submit]
+{
+    width: 93%;
+    height: 50px;
+    background: #ffffff;
+    border: none;
+    color: #f9b32f;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+#SWA_BTC .calculate input[type=submit]:hover
+{
+    color: #2f2f2f;
+    font-size: 23px;
+    background: transparent;
+}
+#SWA_BTC .calculate input[type=submit]:active
+{
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #f9b32f;
+
+}

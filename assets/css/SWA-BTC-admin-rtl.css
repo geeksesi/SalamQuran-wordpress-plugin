@@ -1,0 +1,55 @@
+@font-face
+{
+  font-family: "Vazir";
+  src: url(../fonts/Vazir-Medium.eot);
+  src: url(../fonts/Vazir-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Vazir-Medium.woff2) format("woff2"), url(../fonts/Vazir-Medium.woff) format("woff"), url(../fonts/Vazir-Medium.ttf) format("truetype");
+}
+
+#SWA_BTC
+{
+	font-family: "Vazir"
+}
+#SWA_BTC #USD_price
+{
+	direction: ltr;
+	text-align: center;
+}
+#SWA_BTC #EUR_price
+{
+	text-align: center;
+	direction: ltr;
+}
+#SWA_BTC #IRR_price
+{
+	text-align: center;
+}
+#SWA_BTC .top
+{
+	float: right;
+}
+#SWA_BTC .row
+{
+	float: right;
+}
+#SWA_BTC .logo
+{
+	float: right;
+}
+#SWA_BTC .price h2
+{
+	float: right;
+	font-family: "Vazir"
+}
+#SWA_BTC .price p
+{
+	float: right;
+	font-family: "Vazir"
+}
+#SWA_BTC .calculate .calculate_input
+{
+   float: right;
+}
+#SWA_BTC .calculate .calculate_radio
+{
+    float: right;
+}

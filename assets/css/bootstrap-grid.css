@@ -1,0 +1,1557 @@
+/*!
+ * Bootstrap Grid v4.0.0-beta.2 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@-ms-viewport {
+  width: device-width;
+}
+
+
+#SWA_BTC .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  #SWA_BTC .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  #SWA_BTC .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  #SWA_BTC .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #SWA_BTC .container {
+    max-width: 1140px;
+  }
+}
+
+#SWA_BTC .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#SWA_BTC .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#SWA_BTC .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#SWA_BTC .no-gutters > .col,
+#SWA_BTC .no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#SWA_BTC .col-1, #SWA_BTC .col-2, #SWA_BTC .col-3, #SWA_BTC .col-4, #SWA_BTC .col-5, #SWA_BTC .col-6, #SWA_BTC .col-7, #SWA_BTC .col-8, #SWA_BTC .col-9, #SWA_BTC .col-10, #SWA_BTC .col-11, #SWA_BTC .col-12, #SWA_BTC .col,
+#SWA_BTC .col-auto, #SWA_BTC .col-sm-1, #SWA_BTC .col-sm-2, #SWA_BTC .col-sm-3, #SWA_BTC .col-sm-4, #SWA_BTC .col-sm-5, #SWA_BTC .col-sm-6, #SWA_BTC .col-sm-7, #SWA_BTC .col-sm-8, #SWA_BTC .col-sm-9, #SWA_BTC .col-sm-10, #SWA_BTC .col-sm-11, #SWA_BTC .col-sm-12, #SWA_BTC .col-sm,
+#SWA_BTC .col-sm-auto, #SWA_BTC .col-md-1, #SWA_BTC .col-md-2, #SWA_BTC .col-md-3, #SWA_BTC .col-md-4, #SWA_BTC .col-md-5, #SWA_BTC .col-md-6, #SWA_BTC .col-md-7, #SWA_BTC .col-md-8, #SWA_BTC .col-md-9, #SWA_BTC .col-md-10, #SWA_BTC .col-md-11, #SWA_BTC .col-md-12, #SWA_BTC .col-md,
+#SWA_BTC .col-md-auto, #SWA_BTC .col-lg-1, #SWA_BTC .col-lg-2, #SWA_BTC .col-lg-3, #SWA_BTC .col-lg-4, #SWA_BTC .col-lg-5, #SWA_BTC .col-lg-6, #SWA_BTC .col-lg-7, #SWA_BTC .col-lg-8, #SWA_BTC .col-lg-9, #SWA_BTC .col-lg-10, #SWA_BTC .col-lg-11, #SWA_BTC .col-lg-12, #SWA_BTC .col-lg,
+#SWA_BTC .col-lg-auto, #SWA_BTC .col-xl-1, #SWA_BTC .col-xl-2, #SWA_BTC .col-xl-3, #SWA_BTC .col-xl-4, #SWA_BTC .col-xl-5, #SWA_BTC .col-xl-6, #SWA_BTC .col-xl-7, #SWA_BTC .col-xl-8, #SWA_BTC .col-xl-9, #SWA_BTC .col-xl-10, #SWA_BTC .col-xl-11, #SWA_BTC .col-xl-12, #SWA_BTC .col-xl,
+#SWA_BTC .col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#SWA_BTC .col {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  max-width: 100%;
+}
+
+#SWA_BTC .col-auto {
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+#SWA_BTC .col-1 {
+  -ms-flex: 0 0 8.333333%;
+      flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+#SWA_BTC .col-2 {
+  -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+#SWA_BTC .col-3 {
+  -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+  max-width: 25%;
+}
+
+#SWA_BTC .col-4 {
+  -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+#SWA_BTC .col-5 {
+  -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+#SWA_BTC .col-6 {
+  -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+  max-width: 50%;
+}
+
+#SWA_BTC .col-7 {
+  -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+#SWA_BTC .col-8 {
+  -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+#SWA_BTC .col-9 {
+  -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+  max-width: 75%;
+}
+
+#SWA_BTC .col-10 {
+  -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+#SWA_BTC .col-11 {
+  -ms-flex: 0 0 91.666667%;
+      flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+#SWA_BTC .col-12 {
+  -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+  max-width: 100%;
+}
+
+#SWA_BTC .order-first {
+  -ms-flex-order: -1;
+      order: -1;
+}
+
+#SWA_BTC .order-1 {
+  -ms-flex-order: 1;
+      order: 1;
+}
+
+#SWA_BTC .order-2 {
+  -ms-flex-order: 2;
+      order: 2;
+}
+
+#SWA_BTC .order-3 {
+  -ms-flex-order: 3;
+      order: 3;
+}
+
+#SWA_BTC .order-4 {
+  -ms-flex-order: 4;
+      order: 4;
+}
+
+#SWA_BTC .order-5 {
+  -ms-flex-order: 5;
+      order: 5;
+}
+
+#SWA_BTC .order-6 {
+  -ms-flex-order: 6;
+      order: 6;
+}
+
+#SWA_BTC .order-7 {
+  -ms-flex-order: 7;
+      order: 7;
+}
+
+#SWA_BTC .order-8 {
+  -ms-flex-order: 8;
+      order: 8;
+}
+
+#SWA_BTC .order-9 {
+  -ms-flex-order: 9;
+      order: 9;
+}
+
+#SWA_BTC .order-10 {
+  -ms-flex-order: 10;
+      order: 10;
+}
+
+#SWA_BTC .order-11 {
+  -ms-flex-order: 11;
+      order: 11;
+}
+
+#SWA_BTC .order-12 {
+  -ms-flex-order: 12;
+      order: 12;
+}
+
+#SWA_BTC .offset-1 {
+  margin-left: 8.333333%;
+}
+
+#SWA_BTC .offset-2 {
+  margin-left: 16.666667%;
+}
+
+#SWA_BTC .offset-3 {
+  margin-left: 25%;
+}
+
+#SWA_BTC .offset-4 {
+  margin-left: 33.333333%;
+}
+
+#SWA_BTC .offset-5 {
+  margin-left: 41.666667%;
+}
+
+#SWA_BTC .offset-6 {
+  margin-left: 50%;
+}
+
+#SWA_BTC .offset-7 {
+  margin-left: 58.333333%;
+}
+
+#SWA_BTC .offset-8 {
+  margin-left: 66.666667%;
+}
+
+#SWA_BTC .offset-9 {
+  margin-left: 75%;
+}
+
+#SWA_BTC .offset-10 {
+  margin-left: 83.333333%;
+}
+
+#SWA_BTC .offset-11 {
+  margin-left: 91.666667%;
+}
+
+@media (min-width: 576px) {
+  #SWA_BTC .col-sm {
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    max-width: 100%;
+  }
+  #SWA_BTC .col-sm-auto {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+  #SWA_BTC .col-sm-1 {
+    -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #SWA_BTC .col-sm-2 {
+    -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #SWA_BTC .col-sm-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #SWA_BTC .col-sm-4 {
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #SWA_BTC .col-sm-5 {
+    -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #SWA_BTC .col-sm-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #SWA_BTC .col-sm-7 {
+    -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #SWA_BTC .col-sm-8 {
+    -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #SWA_BTC .col-sm-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #SWA_BTC .col-sm-10 {
+    -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #SWA_BTC .col-sm-11 {
+    -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #SWA_BTC .col-sm-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #SWA_BTC .order-sm-first {
+    -ms-flex-order: -1;
+        order: -1;
+  }
+  #SWA_BTC .order-sm-1 {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+  #SWA_BTC .order-sm-2 {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+  #SWA_BTC .order-sm-3 {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  #SWA_BTC .order-sm-4 {
+    -ms-flex-order: 4;
+        order: 4;
+  }
+  #SWA_BTC .order-sm-5 {
+    -ms-flex-order: 5;
+        order: 5;
+  }
+  #SWA_BTC .order-sm-6 {
+    -ms-flex-order: 6;
+        order: 6;
+  }
+  #SWA_BTC .order-sm-7 {
+    -ms-flex-order: 7;
+        order: 7;
+  }
+  #SWA_BTC .order-sm-8 {
+    -ms-flex-order: 8;
+        order: 8;
+  }
+  #SWA_BTC .order-sm-9 {
+    -ms-flex-order: 9;
+        order: 9;
+  }
+  #SWA_BTC .order-sm-10 {
+    -ms-flex-order: 10;
+        order: 10;
+  }
+  #SWA_BTC .order-sm-11 {
+    -ms-flex-order: 11;
+        order: 11;
+  }
+  #SWA_BTC .order-sm-12 {
+    -ms-flex-order: 12;
+        order: 12;
+  }
+  #SWA_BTC .offset-sm-0 {
+    margin-left: 0;
+  }
+  #SWA_BTC .offset-sm-1 {
+    margin-left: 8.333333%;
+  }
+  #SWA_BTC .offset-sm-2 {
+    margin-left: 16.666667%;
+  }
+  #SWA_BTC .offset-sm-3 {
+    margin-left: 25%;
+  }
+  #SWA_BTC .offset-sm-4 {
+    margin-left: 33.333333%;
+  }
+  #SWA_BTC .offset-sm-5 {
+    margin-left: 41.666667%;
+  }
+  #SWA_BTC .offset-sm-6 {
+    margin-left: 50%;
+  }
+  #SWA_BTC .offset-sm-7 {
+    margin-left: 58.333333%;
+  }
+  #SWA_BTC .offset-sm-8 {
+    margin-left: 66.666667%;
+  }
+  #SWA_BTC .offset-sm-9 {
+    margin-left: 75%;
+  }
+  #SWA_BTC .offset-sm-10 {
+    margin-left: 83.333333%;
+  }
+  #SWA_BTC .offset-sm-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 768px) {
+  #SWA_BTC .col-md {
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    max-width: 100%;
+  }
+  #SWA_BTC .col-md-auto {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+  #SWA_BTC .col-md-1 {
+    -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #SWA_BTC .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #SWA_BTC .col-md-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #SWA_BTC .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #SWA_BTC .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #SWA_BTC .col-md-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #SWA_BTC .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #SWA_BTC .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #SWA_BTC .col-md-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #SWA_BTC .col-md-10 {
+    -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #SWA_BTC .col-md-11 {
+    -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #SWA_BTC .col-md-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #SWA_BTC .order-md-first {
+    -ms-flex-order: -1;
+        order: -1;
+  }
+  #SWA_BTC .order-md-1 {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+  #SWA_BTC .order-md-2 {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+  #SWA_BTC .order-md-3 {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  #SWA_BTC .order-md-4 {
+    -ms-flex-order: 4;
+        order: 4;
+  }
+  #SWA_BTC .order-md-5 {
+    -ms-flex-order: 5;
+        order: 5;
+  }
+  #SWA_BTC .order-md-6 {
+    -ms-flex-order: 6;
+        order: 6;
+  }
+  #SWA_BTC .order-md-7 {
+    -ms-flex-order: 7;
+        order: 7;
+  }
+  #SWA_BTC .order-md-8 {
+    -ms-flex-order: 8;
+        order: 8;
+  }
+  #SWA_BTC .order-md-9 {
+    -ms-flex-order: 9;
+        order: 9;
+  }
+  #SWA_BTC .order-md-10 {
+    -ms-flex-order: 10;
+        order: 10;
+  }
+  #SWA_BTC .order-md-11 {
+    -ms-flex-order: 11;
+        order: 11;
+  }
+  #SWA_BTC .order-md-12 {
+    -ms-flex-order: 12;
+        order: 12;
+  }
+  #SWA_BTC .offset-md-0 {
+    margin-left: 0;
+  }
+  #SWA_BTC .offset-md-1 {
+    margin-left: 8.333333%;
+  }
+  #SWA_BTC .offset-md-2 {
+    margin-left: 16.666667%;
+  }
+  #SWA_BTC .offset-md-3 {
+    margin-left: 25%;
+  }
+  #SWA_BTC .offset-md-4 {
+    margin-left: 33.333333%;
+  }
+  #SWA_BTC .offset-md-5 {
+    margin-left: 41.666667%;
+  }
+  #SWA_BTC .offset-md-6 {
+    margin-left: 50%;
+  }
+  #SWA_BTC .offset-md-7 {
+    margin-left: 58.333333%;
+  }
+  #SWA_BTC .offset-md-8 {
+    margin-left: 66.666667%;
+  }
+  #SWA_BTC .offset-md-9 {
+    margin-left: 75%;
+  }
+  #SWA_BTC .offset-md-10 {
+    margin-left: 83.333333%;
+  }
+  #SWA_BTC .offset-md-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 992px) {
+  #SWA_BTC .col-lg {
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    max-width: 100%;
+  }
+  #SWA_BTC .col-lg-auto {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+  #SWA_BTC .col-lg-1 {
+    -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #SWA_BTC .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #SWA_BTC .col-lg-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #SWA_BTC .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #SWA_BTC .col-lg-5 {
+    -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #SWA_BTC .col-lg-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #SWA_BTC .col-lg-7 {
+    -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #SWA_BTC .col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #SWA_BTC .col-lg-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #SWA_BTC .col-lg-10 {
+    -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #SWA_BTC .col-lg-11 {
+    -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #SWA_BTC .col-lg-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #SWA_BTC .order-lg-first {
+    -ms-flex-order: -1;
+        order: -1;
+  }
+  #SWA_BTC .order-lg-1 {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+  #SWA_BTC .order-lg-2 {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+  #SWA_BTC .order-lg-3 {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  #SWA_BTC .order-lg-4 {
+    -ms-flex-order: 4;
+        order: 4;
+  }
+  #SWA_BTC .order-lg-5 {
+    -ms-flex-order: 5;
+        order: 5;
+  }
+  #SWA_BTC .order-lg-6 {
+    -ms-flex-order: 6;
+        order: 6;
+  }
+  #SWA_BTC .order-lg-7 {
+    -ms-flex-order: 7;
+        order: 7;
+  }
+  #SWA_BTC .order-lg-8 {
+    -ms-flex-order: 8;
+        order: 8;
+  }
+  #SWA_BTC .order-lg-9 {
+    -ms-flex-order: 9;
+        order: 9;
+  }
+  #SWA_BTC .order-lg-10 {
+    -ms-flex-order: 10;
+        order: 10;
+  }
+  #SWA_BTC .order-lg-11 {
+    -ms-flex-order: 11;
+        order: 11;
+  }
+  #SWA_BTC .order-lg-12 {
+    -ms-flex-order: 12;
+        order: 12;
+  }
+  #SWA_BTC .offset-lg-0 {
+    margin-left: 0;
+  }
+  #SWA_BTC .offset-lg-1 {
+    margin-left: 8.333333%;
+  }
+  #SWA_BTC .offset-lg-2 {
+    margin-left: 16.666667%;
+  }
+  #SWA_BTC .offset-lg-3 {
+    margin-left: 25%;
+  }
+  #SWA_BTC .offset-lg-4 {
+    margin-left: 33.333333%;
+  }
+  #SWA_BTC .offset-lg-5 {
+    margin-left: 41.666667%;
+  }
+  #SWA_BTC .offset-lg-6 {
+    margin-left: 50%;
+  }
+  #SWA_BTC .offset-lg-7 {
+    margin-left: 58.333333%;
+  }
+  #SWA_BTC .offset-lg-8 {
+    margin-left: 66.666667%;
+  }
+  #SWA_BTC .offset-lg-9 {
+    margin-left: 75%;
+  }
+  #SWA_BTC .offset-lg-10 {
+    margin-left: 83.333333%;
+  }
+  #SWA_BTC .offset-lg-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #SWA_BTC .col-xl {
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    max-width: 100%;
+  }
+  #SWA_BTC .col-xl-auto {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+  #SWA_BTC .col-xl-1 {
+    -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  #SWA_BTC .col-xl-2 {
+    -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  #SWA_BTC .col-xl-3 {
+    -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+    max-width: 25%;
+  }
+  #SWA_BTC .col-xl-4 {
+    -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  #SWA_BTC .col-xl-5 {
+    -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  #SWA_BTC .col-xl-6 {
+    -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #SWA_BTC .col-xl-7 {
+    -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  #SWA_BTC .col-xl-8 {
+    -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  #SWA_BTC .col-xl-9 {
+    -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+    max-width: 75%;
+  }
+  #SWA_BTC .col-xl-10 {
+    -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  #SWA_BTC .col-xl-11 {
+    -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  #SWA_BTC .col-xl-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #SWA_BTC .order-xl-first {
+    -ms-flex-order: -1;
+        order: -1;
+  }
+  #SWA_BTC .order-xl-1 {
+    -ms-flex-order: 1;
+        order: 1;
+  }
+  #SWA_BTC .order-xl-2 {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+  #SWA_BTC .order-xl-3 {
+    -ms-flex-order: 3;
+        order: 3;
+  }
+  #SWA_BTC .order-xl-4 {
+    -ms-flex-order: 4;
+        order: 4;
+  }
+  #SWA_BTC .order-xl-5 {
+    -ms-flex-order: 5;
+        order: 5;
+  }
+  #SWA_BTC .order-xl-6 {
+    -ms-flex-order: 6;
+        order: 6;
+  }
+  #SWA_BTC .order-xl-7 {
+    -ms-flex-order: 7;
+        order: 7;
+  }
+  #SWA_BTC .order-xl-8 {
+    -ms-flex-order: 8;
+        order: 8;
+  }
+  #SWA_BTC .order-xl-9 {
+    -ms-flex-order: 9;
+        order: 9;
+  }
+  #SWA_BTC .order-xl-10 {
+    -ms-flex-order: 10;
+        order: 10;
+  }
+  #SWA_BTC .order-xl-11 {
+    -ms-flex-order: 11;
+        order: 11;
+  }
+  #SWA_BTC .order-xl-12 {
+    -ms-flex-order: 12;
+        order: 12;
+  }
+  #SWA_BTC .offset-xl-0 {
+    margin-left: 0;
+  }
+  #SWA_BTC .offset-xl-1 {
+    margin-left: 8.333333%;
+  }
+  #SWA_BTC .offset-xl-2 {
+    margin-left: 16.666667%;
+  }
+  #SWA_BTC .offset-xl-3 {
+    margin-left: 25%;
+  }
+  #SWA_BTC .offset-xl-4 {
+    margin-left: 33.333333%;
+  }
+  #SWA_BTC .offset-xl-5 {
+    margin-left: 41.666667%;
+  }
+  #SWA_BTC .offset-xl-6 {
+    margin-left: 50%;
+  }
+  #SWA_BTC .offset-xl-7 {
+    margin-left: 58.333333%;
+  }
+  #SWA_BTC .offset-xl-8 {
+    margin-left: 66.666667%;
+  }
+  #SWA_BTC .offset-xl-9 {
+    margin-left: 75%;
+  }
+  #SWA_BTC .offset-xl-10 {
+    margin-left: 83.333333%;
+  }
+  #SWA_BTC .offset-xl-11 {
+    margin-left: 91.666667%;
+  }
+}
+
+#SWA_BTC .flex-row {
+  -ms-flex-direction: row !important;
+      flex-direction: row !important;
+}
+
+#SWA_BTC .flex-column {
+  -ms-flex-direction: column !important;
+      flex-direction: column !important;
+}
+
+#SWA_BTC .flex-row-reverse {
+  -ms-flex-direction: row-reverse !important;
+      flex-direction: row-reverse !important;
+}
+
+#SWA_BTC .flex-column-reverse {
+  -ms-flex-direction: column-reverse !important;
+      flex-direction: column-reverse !important;
+}
+
+#SWA_BTC .flex-wrap {
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+}
+
+#SWA_BTC .flex-nowrap {
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+}
+
+#SWA_BTC .flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse !important;
+      flex-wrap: wrap-reverse !important;
+}
+
+#SWA_BTC .justify-content-start {
+  -ms-flex-pack: start !important;
+      justify-content: flex-start !important;
+}
+
+#SWA_BTC .justify-content-end {
+  -ms-flex-pack: end !important;
+      justify-content: flex-end !important;
+}
+
+#SWA_BTC .justify-content-center {
+  -ms-flex-pack: center !important;
+      justify-content: center !important;
+}
+
+#SWA_BTC .justify-content-between {
+  -ms-flex-pack: justify !important;
+      justify-content: space-between !important;
+}
+
+#SWA_BTC .justify-content-around {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
+
+#SWA_BTC .align-items-start {
+  -ms-flex-align: start !important;
+      align-items: flex-start !important;
+}
+
+#SWA_BTC .align-items-end {
+  -ms-flex-align: end !important;
+      align-items: flex-end !important;
+}
+
+#SWA_BTC .align-items-center {
+  -ms-flex-align: center !important;
+      align-items: center !important;
+}
+
+#SWA_BTC .align-items-baseline {
+  -ms-flex-align: baseline !important;
+      align-items: baseline !important;
+}
+
+#SWA_BTC .align-items-stretch {
+  -ms-flex-align: stretch !important;
+      align-items: stretch !important;
+}
+
+#SWA_BTC .align-content-start {
+  -ms-flex-line-pack: start !important;
+      align-content: flex-start !important;
+}
+
+#SWA_BTC .align-content-end {
+  -ms-flex-line-pack: end !important;
+      align-content: flex-end !important;
+}
+
+#SWA_BTC .align-content-center {
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+}
+
+#SWA_BTC .align-content-between {
+  -ms-flex-line-pack: justify !important;
+      align-content: space-between !important;
+}
+
+#SWA_BTC .align-content-around {
+  -ms-flex-line-pack: distribute !important;
+      align-content: space-around !important;
+}
+
+#SWA_BTC .align-content-stretch {
+  -ms-flex-line-pack: stretch !important;
+      align-content: stretch !important;
+}
+
+#SWA_BTC .align-self-auto {
+  -ms-flex-item-align: auto !important;
+      align-self: auto !important;
+}
+
+#SWA_BTC .align-self-start {
+  -ms-flex-item-align: start !important;
+      align-self: flex-start !important;
+}
+
+#SWA_BTC .align-self-end {
+  -ms-flex-item-align: end !important;
+      align-self: flex-end !important;
+}
+
+#SWA_BTC .align-self-center {
+  -ms-flex-item-align: center !important;
+      align-self: center !important;
+}
+
+#SWA_BTC .align-self-baseline {
+  -ms-flex-item-align: baseline !important;
+      align-self: baseline !important;
+}
+
+#SWA_BTC .align-self-stretch {
+  -ms-flex-item-align: stretch !important;
+      align-self: stretch !important;
+}
+
+@media (min-width: 576px) {
+  #SWA_BTC .flex-sm-row {
+    -ms-flex-direction: row !important;
+        flex-direction: row !important;
+  }
+  #SWA_BTC .flex-sm-column {
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
+  }
+  #SWA_BTC .flex-sm-row-reverse {
+    -ms-flex-direction: row-reverse !important;
+        flex-direction: row-reverse !important;
+  }
+  #SWA_BTC .flex-sm-column-reverse {
+    -ms-flex-direction: column-reverse !important;
+        flex-direction: column-reverse !important;
+  }
+  #SWA_BTC .flex-sm-wrap {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #SWA_BTC .flex-sm-nowrap {
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+  }
+  #SWA_BTC .flex-sm-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+        flex-wrap: wrap-reverse !important;
+  }
+  #SWA_BTC .justify-content-sm-start {
+    -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+  }
+  #SWA_BTC .justify-content-sm-end {
+    -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+  }
+  #SWA_BTC .justify-content-sm-center {
+    -ms-flex-pack: center !important;
+        justify-content: center !important;
+  }
+  #SWA_BTC .justify-content-sm-between {
+    -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+  }
+  #SWA_BTC .justify-content-sm-around {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  #SWA_BTC .align-items-sm-start {
+    -ms-flex-align: start !important;
+        align-items: flex-start !important;
+  }
+  #SWA_BTC .align-items-sm-end {
+    -ms-flex-align: end !important;
+        align-items: flex-end !important;
+  }
+  #SWA_BTC .align-items-sm-center {
+    -ms-flex-align: center !important;
+        align-items: center !important;
+  }
+  #SWA_BTC .align-items-sm-baseline {
+    -ms-flex-align: baseline !important;
+        align-items: baseline !important;
+  }
+  #SWA_BTC .align-items-sm-stretch {
+    -ms-flex-align: stretch !important;
+        align-items: stretch !important;
+  }
+  #SWA_BTC .align-content-sm-start {
+    -ms-flex-line-pack: start !important;
+        align-content: flex-start !important;
+  }
+  #SWA_BTC .align-content-sm-end {
+    -ms-flex-line-pack: end !important;
+        align-content: flex-end !important;
+  }
+  #SWA_BTC .align-content-sm-center {
+    -ms-flex-line-pack: center !important;
+        align-content: center !important;
+  }
+  #SWA_BTC .align-content-sm-between {
+    -ms-flex-line-pack: justify !important;
+        align-content: space-between !important;
+  }
+  #SWA_BTC .align-content-sm-around {
+    -ms-flex-line-pack: distribute !important;
+        align-content: space-around !important;
+  }
+  #SWA_BTC .align-content-sm-stretch {
+    -ms-flex-line-pack: stretch !important;
+        align-content: stretch !important;
+  }
+  #SWA_BTC .align-self-sm-auto {
+    -ms-flex-item-align: auto !important;
+        align-self: auto !important;
+  }
+  #SWA_BTC .align-self-sm-start {
+    -ms-flex-item-align: start !important;
+        align-self: flex-start !important;
+  }
+  #SWA_BTC .align-self-sm-end {
+    -ms-flex-item-align: end !important;
+        align-self: flex-end !important;
+  }
+  #SWA_BTC .align-self-sm-center {
+    -ms-flex-item-align: center !important;
+        align-self: center !important;
+  }
+  #SWA_BTC .align-self-sm-baseline {
+    -ms-flex-item-align: baseline !important;
+        align-self: baseline !important;
+  }
+  #SWA_BTC .align-self-sm-stretch {
+    -ms-flex-item-align: stretch !important;
+        align-self: stretch !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #SWA_BTC .flex-md-row {
+    -ms-flex-direction: row !important;
+        flex-direction: row !important;
+  }
+  #SWA_BTC .flex-md-column {
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
+  }
+  #SWA_BTC .flex-md-row-reverse {
+    -ms-flex-direction: row-reverse !important;
+        flex-direction: row-reverse !important;
+  }
+  #SWA_BTC .flex-md-column-reverse {
+    -ms-flex-direction: column-reverse !important;
+        flex-direction: column-reverse !important;
+  }
+  #SWA_BTC .flex-md-wrap {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #SWA_BTC .flex-md-nowrap {
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+  }
+  #SWA_BTC .flex-md-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+        flex-wrap: wrap-reverse !important;
+  }
+  #SWA_BTC .justify-content-md-start {
+    -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+  }
+  #SWA_BTC .justify-content-md-end {
+    -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+  }
+  #SWA_BTC .justify-content-md-center {
+    -ms-flex-pack: center !important;
+        justify-content: center !important;
+  }
+  #SWA_BTC .justify-content-md-between {
+    -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+  }
+  #SWA_BTC .justify-content-md-around {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  #SWA_BTC .align-items-md-start {
+    -ms-flex-align: start !important;
+        align-items: flex-start !important;
+  }
+  #SWA_BTC .align-items-md-end {
+    -ms-flex-align: end !important;
+        align-items: flex-end !important;
+  }
+  #SWA_BTC .align-items-md-center {
+    -ms-flex-align: center !important;
+        align-items: center !important;
+  }
+  #SWA_BTC .align-items-md-baseline {
+    -ms-flex-align: baseline !important;
+        align-items: baseline !important;
+  }
+  #SWA_BTC .align-items-md-stretch {
+    -ms-flex-align: stretch !important;
+        align-items: stretch !important;
+  }
+  #SWA_BTC .align-content-md-start {
+    -ms-flex-line-pack: start !important;
+        align-content: flex-start !important;
+  }
+  #SWA_BTC .align-content-md-end {
+    -ms-flex-line-pack: end !important;
+        align-content: flex-end !important;
+  }
+  #SWA_BTC .align-content-md-center {
+    -ms-flex-line-pack: center !important;
+        align-content: center !important;
+  }
+  #SWA_BTC .align-content-md-between {
+    -ms-flex-line-pack: justify !important;
+        align-content: space-between !important;
+  }
+  #SWA_BTC .align-content-md-around {
+    -ms-flex-line-pack: distribute !important;
+        align-content: space-around !important;
+  }
+  #SWA_BTC .align-content-md-stretch {
+    -ms-flex-line-pack: stretch !important;
+        align-content: stretch !important;
+  }
+  #SWA_BTC .align-self-md-auto {
+    -ms-flex-item-align: auto !important;
+        align-self: auto !important;
+  }
+  #SWA_BTC .align-self-md-start {
+    -ms-flex-item-align: start !important;
+        align-self: flex-start !important;
+  }
+  #SWA_BTC .align-self-md-end {
+    -ms-flex-item-align: end !important;
+        align-self: flex-end !important;
+  }
+  #SWA_BTC .align-self-md-center {
+    -ms-flex-item-align: center !important;
+        align-self: center !important;
+  }
+  #SWA_BTC .align-self-md-baseline {
+    -ms-flex-item-align: baseline !important;
+        align-self: baseline !important;
+  }
+  #SWA_BTC .align-self-md-stretch {
+    -ms-flex-item-align: stretch !important;
+        align-self: stretch !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #SWA_BTC .flex-lg-row {
+    -ms-flex-direction: row !important;
+        flex-direction: row !important;
+  }
+  #SWA_BTC .flex-lg-column {
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
+  }
+  #SWA_BTC .flex-lg-row-reverse {
+    -ms-flex-direction: row-reverse !important;
+        flex-direction: row-reverse !important;
+  }
+  #SWA_BTC .flex-lg-column-reverse {
+    -ms-flex-direction: column-reverse !important;
+        flex-direction: column-reverse !important;
+  }
+  #SWA_BTC .flex-lg-wrap {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #SWA_BTC .flex-lg-nowrap {
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+  }
+  #SWA_BTC .flex-lg-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+        flex-wrap: wrap-reverse !important;
+  }
+  #SWA_BTC .justify-content-lg-start {
+    -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+  }
+  #SWA_BTC .justify-content-lg-end {
+    -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+  }
+  #SWA_BTC .justify-content-lg-center {
+    -ms-flex-pack: center !important;
+        justify-content: center !important;
+  }
+  #SWA_BTC .justify-content-lg-between {
+    -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+  }
+  #SWA_BTC .justify-content-lg-around {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  #SWA_BTC .align-items-lg-start {
+    -ms-flex-align: start !important;
+        align-items: flex-start !important;
+  }
+  #SWA_BTC .align-items-lg-end {
+    -ms-flex-align: end !important;
+        align-items: flex-end !important;
+  }
+  #SWA_BTC .align-items-lg-center {
+    -ms-flex-align: center !important;
+        align-items: center !important;
+  }
+  #SWA_BTC .align-items-lg-baseline {
+    -ms-flex-align: baseline !important;
+        align-items: baseline !important;
+  }
+  #SWA_BTC .align-items-lg-stretch {
+    -ms-flex-align: stretch !important;
+        align-items: stretch !important;
+  }
+  #SWA_BTC .align-content-lg-start {
+    -ms-flex-line-pack: start !important;
+        align-content: flex-start !important;
+  }
+  #SWA_BTC .align-content-lg-end {
+    -ms-flex-line-pack: end !important;
+        align-content: flex-end !important;
+  }
+  #SWA_BTC .align-content-lg-center {
+    -ms-flex-line-pack: center !important;
+        align-content: center !important;
+  }
+  #SWA_BTC .align-content-lg-between {
+    -ms-flex-line-pack: justify !important;
+        align-content: space-between !important;
+  }
+  #SWA_BTC .align-content-lg-around {
+    -ms-flex-line-pack: distribute !important;
+        align-content: space-around !important;
+  }
+  #SWA_BTC .align-content-lg-stretch {
+    -ms-flex-line-pack: stretch !important;
+        align-content: stretch !important;
+  }
+  #SWA_BTC .align-self-lg-auto {
+    -ms-flex-item-align: auto !important;
+        align-self: auto !important;
+  }
+  #SWA_BTC .align-self-lg-start {
+    -ms-flex-item-align: start !important;
+        align-self: flex-start !important;
+  }
+  #SWA_BTC .align-self-lg-end {
+    -ms-flex-item-align: end !important;
+        align-self: flex-end !important;
+  }
+  #SWA_BTC .align-self-lg-center {
+    -ms-flex-item-align: center !important;
+        align-self: center !important;
+  }
+  #SWA_BTC .align-self-lg-baseline {
+    -ms-flex-item-align: baseline !important;
+        align-self: baseline !important;
+  }
+  #SWA_BTC .align-self-lg-stretch {
+    -ms-flex-item-align: stretch !important;
+        align-self: stretch !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #SWA_BTC .flex-xl-row {
+    -ms-flex-direction: row !important;
+        flex-direction: row !important;
+  }
+  #SWA_BTC .flex-xl-column {
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
+  }
+  #SWA_BTC .flex-xl-row-reverse {
+    -ms-flex-direction: row-reverse !important;
+        flex-direction: row-reverse !important;
+  }
+  #SWA_BTC .flex-xl-column-reverse {
+    -ms-flex-direction: column-reverse !important;
+        flex-direction: column-reverse !important;
+  }
+  #SWA_BTC .flex-xl-wrap {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #SWA_BTC .flex-xl-nowrap {
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+  }
+  #SWA_BTC .flex-xl-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+        flex-wrap: wrap-reverse !important;
+  }
+  #SWA_BTC .justify-content-xl-start {
+    -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+  }
+  #SWA_BTC .justify-content-xl-end {
+    -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+  }
+  #SWA_BTC .justify-content-xl-center {
+    -ms-flex-pack: center !important;
+        justify-content: center !important;
+  }
+  #SWA_BTC .justify-content-xl-between {
+    -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+  }
+  #SWA_BTC .justify-content-xl-around {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  #SWA_BTC .align-items-xl-start {
+    -ms-flex-align: start !important;
+        align-items: flex-start !important;
+  }
+  #SWA_BTC .align-items-xl-end {
+    -ms-flex-align: end !important;
+        align-items: flex-end !important;
+  }
+  #SWA_BTC .align-items-xl-center {
+    -ms-flex-align: center !important;
+        align-items: center !important;
+  }
+  #SWA_BTC .align-items-xl-baseline {
+    -ms-flex-align: baseline !important;
+        align-items: baseline !important;
+  }
+  #SWA_BTC .align-items-xl-stretch {
+    -ms-flex-align: stretch !important;
+        align-items: stretch !important;
+  }
+  #SWA_BTC .align-content-xl-start {
+    -ms-flex-line-pack: start !important;
+        align-content: flex-start !important;
+  }
+  #SWA_BTC .align-content-xl-end {
+    -ms-flex-line-pack: end !important;
+        align-content: flex-end !important;
+  }
+  #SWA_BTC .align-content-xl-center {
+    -ms-flex-line-pack: center !important;
+        align-content: center !important;
+  }
+  #SWA_BTC .align-content-xl-between {
+    -ms-flex-line-pack: justify !important;
+        align-content: space-between !important;
+  }
+  #SWA_BTC .align-content-xl-around {
+    -ms-flex-line-pack: distribute !important;
+        align-content: space-around !important;
+  }
+  #SWA_BTC .align-content-xl-stretch {
+    -ms-flex-line-pack: stretch !important;
+        align-content: stretch !important;
+  }
+  #SWA_BTC .align-self-xl-auto {
+    -ms-flex-item-align: auto !important;
+        align-self: auto !important;
+  }
+  #SWA_BTC .align-self-xl-start {
+    -ms-flex-item-align: start !important;
+        align-self: flex-start !important;
+  }
+  #SWA_BTC .align-self-xl-end {
+    -ms-flex-item-align: end !important;
+        align-self: flex-end !important;
+  }
+  #SWA_BTC .align-self-xl-center {
+    -ms-flex-item-align: center !important;
+        align-self: center !important;
+  }
+  #SWA_BTC .align-self-xl-baseline {
+    -ms-flex-item-align: baseline !important;
+        align-self: baseline !important;
+  }
+  #SWA_BTC .align-self-xl-stretch {
+    -ms-flex-item-align: stretch !important;
+        align-self: stretch !important;
+  }
+}
+/*# sourceMappingURL=bootstrap-grid.css.map */
