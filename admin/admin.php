@@ -1,16 +1,16 @@
 <?php
-// add_action('admin_menu', 'swa_bitcoin_admin_menu');
+add_action('admin_menu', 'SalamQuran_admin_menu');
 
-// function swa_bitcoin_admin_menu(){
+function SalamQuran_admin_menu(){
 
-// 	$main = add_menu_page(__('SWA BitCoin', 'swa-bitcoin'), __('SWA BitCoin', 'swa-bitcoin'), 'manage_options', 'swa_bitcoin_dashbord', 'swa_bitcoin_dashboard_page',SWA_BITCOIN_IMG_URL."logo.svg");
+	$main = add_menu_page(__('SALAM_QURAN', 'SalamQuran-wp'), __('SALAM_QURAN', 'SalamQuran-wp'), 'manage_options', 'SalamQuran_dashboard', 'SalamQuran_dashboard_page', SALAM_QURAN_IMG_URL."logo.svg");
 
-// 	$main_sub = add_submenu_page('swa_bitcoin_dashbord', __('SWA BitCoin', 'swa-bitcoin'), __('SWA BitCoin', 'swa-bitcoin'), 'manage_options', 'swa_bitcoin_dashbord');
+	$main_sub = add_submenu_page('SalamQuran_dashboard', __('SALAM_QURAN', 'SalamQuran-wp'), __('SALAM_QURAN', 'SalamQuran-wp'), 'manage_options', 'SalamQuran_dashboard');
 
-// }
+}
 
-// function swa_bitcoin_dashboard_page ()
-// {
-//     global $BTC;
-//     require SWA_BITCOIN_TPL_DIR.'html-admin-main.php';
-// }
+function SalamQuran_dashboard_page ()
+{
+    // global $BTC;
+    require SALAM_QURAN_TPL_DIR.'html-admin-main.php';
+}
