@@ -4,8 +4,8 @@ Plugin name: SalamQuran-wp
 Plugin URI: https://github.com/geeksesi/SalamQuran-wordpress-plugin
 Description: you can access to Quran anywhere
 Version: V0.1.0
-Author: Mohammad Javad Qasemi
-Author URI: https://github.com/geeksesi
+Author: SalamQuran
+Author URI: https://github.com/salamquran
 Text Domain: -e('SalamQuran-wp','SalamQuran-wp')
  */
 defined('ABSPATH') || exit('No Direct Access.');
@@ -30,4 +30,4 @@ if(is_admin())
 {
 	require_once SALAM_QURAN_ADMIN_DIR.'admin.php';
 }
-require SALAM_QURAN_INC_DIR."class/Bitcoin.php";
+// require SALAM_QURAN_INC_DIR."class/Bitcoin.php";
